@@ -11,6 +11,7 @@ import { ServicesComponent } from './components/frontend/services/services.compo
 import { TeamComponent } from './components/frontend/team/team.component';
 import { InfoComponent } from './components/frontend/info/info.component';
 import { FooterComponent } from './components/frontend/footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/frontend/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

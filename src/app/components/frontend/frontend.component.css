@@ -269,4 +269,11 @@ h3 {
     margin-left: 0;
     margin-top: -20rem;
   }
+
+  #navbarNav{
+    background-color: #fec400;
+    padding: 18px;
+    margin-left: -1rem;
+    margin-top: -5rem;
+  }
 }
