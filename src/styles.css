@@ -14,3 +14,11 @@
   body {
     scroll-behavior: smooth;
   }
+
+.visible {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
